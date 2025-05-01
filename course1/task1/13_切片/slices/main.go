@@ -71,11 +71,11 @@ func useSlice() {
 	copy(dst1, src1)
 	copy(dst2, src2)
 
-	fmt.Println("before copy, src1 = ", src1)
-	fmt.Println("before copy, dst1 = ", dst1)
+	fmt.Println("after copy, src1 = ", src1)
+	fmt.Println("after copy, dst1 = ", dst1)
 
-	fmt.Println("before copy, src2 = ", src2)
-	fmt.Println("before copy, dst2 = ", dst2)
+	fmt.Println("after copy, src2 = ", src2)
+	fmt.Println("after copy, dst2 = ", dst2)
 }
 
 func defineSlice2() {
