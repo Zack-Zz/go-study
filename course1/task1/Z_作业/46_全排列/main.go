@@ -50,6 +50,7 @@ func permute(nums []int) [][]int {
 			// 回溯
 			path = path[:len(path)-1]
 			used[index] = false
+			fmt.Println("pop stack, index:", index)
 		}
 
 	}
